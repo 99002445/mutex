@@ -38,7 +38,7 @@ void* mutex_rec(void *arg)
 	msgrcv(msgid, &message, sizeof(message), 1, 0); 
 
 	// display the message 
-	printf("penalty shot %d: %s \n",j,message.mesg_text);  
+	printf("car exit %d: %s \n",j,message.mesg_text);  
 	++j;
 	
 /***********************************************************************/
