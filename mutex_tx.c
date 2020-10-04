@@ -33,7 +33,7 @@ void* mutex_trans(void *arg)
 /***********************************************************************/
 
 //	printf("Write Data : "); 
-	printf("penalty Shot %d: \t ",j); 
+	printf("car entry %d: \t ",j); 
 	++j;
 	fgets(message.mesg_text,100,stdin); 
 
